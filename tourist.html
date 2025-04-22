@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tourist Attractions in Italy</title>
+    <style>
+        body {
+            background-image: url('/images/BGtourist.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed;
+            font-family: Arial;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 40px;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .tourist-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .tourist-item {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: auto; 
+        }
+
+        .tourist-img {
+            width: 300px;
+            min-height: 100%;
+            object-fit: cover;
+            object-position: center;
+            flex-shrink: 0;
+            border-radius: 10px 0 0 10px;
+            align-self: stretch;
+        }
+        
+        .tourist-info {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        
+        .tourist-title {
+            font-size: 24px;
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .tourist-desc {
+            color: #555;
+            line-height: 1;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Well Known Tourist Attractions</h1>
+    </div>
+    
+    <div class="container">
+        <div class="tourist-list">
+            <div class="tourist-item">
+                <img src="/images/Colosseum.jpg" class="tourist-img" alt="Colosseum">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">Colosseum</h2>
+                    <p class="tourist-desc">
+                        The Colosseum, also known as the Flavian Amphitheater, is one of the most iconic symbols of Ancient Rome and a must-visit for any traveler. Completed in 80 AD, it could hold up to 80,000 spectators and was used for gladiator battles, public spectacles, animal hunts, and even mock sea battles. 
+                        Despite earthquakes and stone looting, the Colosseum still stands as a powerful reminder of Rome's imperial might. Today, you can explore its underground chambers and upper levels for panoramic views of Rome.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="tourist-item">
+                <img src="/images/St. Peter’s Basilica.jpg" class="tourist-img" alt="St. Peter's Basilica">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">St. Peter's Basilica</h2>
+                    <p class="tourist-desc">
+                        St. Peter's Basilica is the largest church in the world and a masterpiece of Renaissance and Baroque architecture.
+                        Located in Vatican City, it was designed by legends like Michelangelo, Bramante, and Bernini. Inside, you'll find Michelangelo's stunning Pietà, the magnificent dome you can climb for views of Rome, and the tomb of St. Peter beneath the basilica.
+                        As the spiritual center of Catholicism, it's also the site of papal ceremonies. Whether religious or not, it's a place of overwhelming beauty and grandeur.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="tourist-item">
+                <img src="/images/Uffizi Gallery.jpg" class="tourist-img" alt="Uffizi Gallery">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">Uffizi Gallery</h2>
+                    <p class="tourist-desc">
+                        The Uffizi Gallery is one of the most famous art museums in the world, showcasing the Renaissance's greatest masterpieces. Built in the 16th century, it houses works by Botticelli, Leonardo da Vinci, Michelangelo, Caravaggio, and many others. 
+                        Highlights include Botticelli's The Birth of Venus and Primavera, and da Vinci's Annunciation.
+                        The museum also offers incredible views of Florence, including the Arno River and Ponte Vecchio, from its upper windows and corridors.  
+                    </p>
+                </div>
+            </div>
+            
+            <div class="tourist-item">
+                <img src="/images/Grand Canal.jpg" alt="Grand Canal" class="tourist-img">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">Grand Canal</h2>
+                    <p class="tourist-desc">
+                        The Grand Canal is Venice's main "street"—a 3.8 km long waterway that winds through the heart of the city. Lined with centuries-old palaces, churches, and vibrant buildings, it's best experienced by vaporetto (water bus) or gondola.
+                        It passes by iconic landmarks such as Rialto Bridge and Ca' d'Oro, and offers an immersive glimpse into Venice's unique, water-based lifestyle.
+                        At night, the reflections of city lights on the water create a magical atmosphere unlike anywhere else on Earth.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tourist-item">
+                <img src="/images/Doges Palace.jpg" class="tourist-img" alt="Doge's Palace">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">Doge's Palace</h2>
+                    <p class="tourist-desc">
+                     The Doge's Palace (Palazzo Ducale) was the political and administrative heart of the Republic of Venice for centuries. This Gothic masterpiece was the home of the Doge (the elected ruler of Venice), and it served as a courtroom, government headquarters, and prison.
+                     Inside, the palace is richly decorated with golden ceilings, frescoes by Titian and Tintoretto, and dramatic council chambers. A highlight is walking across the Bridge of Sighs, which connects the palace to the prison—offering the last view of Venice that prisoners would see.
+                     </p>
+                </div>
+            </div>
+            
+            <div class="tourist-item">
+                <img src="/images/Amalfi Coast.jpg" class="tourist-img" alt="Amalfi Coast">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">Amalfi Coast</h2>
+                    <p class="tourist-desc">
+                        The Amalfi Coast is one of the most spectacular coastal drives in the world, stretching about 50 kilometers along the southern edge of the Sorrentine Peninsula. It's known for its dramatic cliffs, pastel-colored villages, terraced vineyards, and the sparkling blue Tyrrhenian Sea.
+                        Towns like Positano, Amalfi, and Ravello offer picturesque charm, luxury shopping, and delicious seafood. Visitors come here to relax on beaches, hike scenic trails (like the Path of the Gods), and enjoy the timeless beauty of Italy's southern shore.
+                     </p>
+                </div>
+            </div>
+
+            <div class="tourist-item">
+                <img src="/images/Leaning Tower of Pisa.jpg" class="tourist-img" alt="Leaning Tower of Pisa">
+                <div class="tourist-info">
+                    <h2 class="tourist-title">Leaning Tower of Pisa</h2>
+                    <p class="tourist-desc">
+                        The Leaning Tower of Pisa is one of the world's most recognizable structures, famous for its unintended tilt caused by unstable foundation soil. It's actually the bell tower of the Pisa Cathedral, part of the Piazza dei Miracoli complex, which also includes the Cathedral and the Baptistery. 
+                        Construction began in 1173 and took nearly 200 years to complete. Today, visitors can climb its 294 steps for a unique view and take those classic tilted photo poses outside. Despite its flaw, or perhaps because of it, the tower has become a beloved global icon.                 
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

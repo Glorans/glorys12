@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Italian Cuisine</title>
+    <style>
+        body {
+            background-image: url('/images/BGfood.png');
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed;
+            font-family: Arial;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 40px;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .food-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .food-item {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: auto; 
+        }
+
+        .food-img {
+            width: 300px;
+            min-height: 100%;
+            object-fit: cover;
+            object-position: center;
+            flex-shrink: 0;
+            border-radius: 10px 0 0 10px;
+            align-self: stretch;
+        }
+        
+        .food-info {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        
+        .food-title {
+            font-size: 24px;
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .food-desc {
+            color: #555;
+            line-height: 1;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Italian Cuisine</h1>
+    </div>
+    
+    <div class="container">
+        <div class="food-list">
+            <div class="food-item">
+                <img src="/images/margarita.jpg" class="food-img" alt="Margarita Pizza">
+                <div class="food-info">
+                    <h2 class="food-title">Margarita</h2>
+                    <p class="food-desc">
+                        The first thing that comes to mind when you think of Italian cuisine is undoubtedly pizza. Pizzas, made with a variety of ingredients, offer an option to satisfy every palate. Pizza, considered the most important dish in Italy, plays a big role in the country's cuisine, even though it is known as fast food in the world.
+                        The most frequently preferred pizza recipe in Italy is Margarita, and it is consumed all over the world with its light structure and taste that appeals to every taste.
+                        Prepared in a very practical way, Margarita contains flour, olive oil, water, dry yeast, salt, granulated sugar, tomatoes, oregano, basil, and mozzarella cheese. Considering its ingredients, pizza is also a suitable choice for a vegetarian diet, and it is a filling option.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="food-item">
+                <img src="/images/lazanya.jpg" class="food-img" alt="Lasagna">
+                <div class="food-info">
+                    <h2 class="food-title">Lasagna</h2>
+                    <p class="food-desc">
+                        Lasagne, which originated in Bologna, Italy, is an Italian dish that is among the local flavours of the country. It is also considered a type of pasta dish and is prepared with different methods and ingredients.
+                        Lasagna typically contains lasagna sheets, ground meat, onions, tomatoes, tomato paste, olive oil, garlic, salt, butter, milk, flour, black pepper, and Parmesan cheese. The meat, tomato sauce, and special dough are prepared and baked in the oven, topped with béchamel sauce and cheese.                    
+                    </p>
+                </div>
+            </div>
+            
+            <div class="food-item">
+                <img src="/images/fettucini-alfredo.jpg" class="food-img" alt="Fettucini Alfredo">
+                <div class="food-info">
+                    <h2 class="food-title">Fettucini Alfredo</h2>
+                    <p class="food-desc">
+                        Fettuccine Alfredo is a type of pasta unique to Italy, made with ingredients such as butter, Parmesan cheese, chicken breast, mushrooms, olive oil, cream, basil, garlic, and black pepper.
+                        The inventor of the dish, which appeared in a restaurant in Rome at the beginning of the 20th century, is Alfredo Di Lelio. Although cream and chicken are not used in the first recipe, this unique flavor, which has spread around the world over time, is made with different techniques and ingredients.
+                        Fettucini Alfredo, which manages to attract attention with its soft texture, lingering flavour, and satisfying feature, is among the favourite dishes that you can find in almost every restaurant.    
+                    </p>
+                </div>
+            </div>
+            
+            <div class="food-item">
+                <img src="/images/bruschetta.jpg" alt="Bruschetta" class="food-img">
+                <div class="food-info">
+                    <h2 class="food-title">Bruschetta</h2>
+                    <p class="food-desc">
+                        Consumed since the 15th century, Bruschetta has a unique flavour. The dish preferred by gourmets is a full Mediterranean flavor. Bruschetta, which is made by adding olive oil, cheese, garlic, vegetables, and tomatoes on thin slices of bread, is one of the most frequently consumed Italian dishes especially in summer months with its light structure.
+                        The original recipe of the dish uses bread, mozzarella cheese, garlic, olive oil, cherry tomatoes, bread, balsamic vinegar, and fresh basil. This dish, which can be consumed at almost every meal from breakfast to dinner and is usually served as a starter, can also be eaten as a snack with drinks
+                    </p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="/images/ricotta-peynirli-ravioli.jpg" class="food-img" alt="Ravioli with Ricotta Cheese">
+                <div class="food-info">
+                    <h2 class="food-title">Ravioli with Ricotta Cheese</h2>
+                    <p class="food-desc">
+                        Ravioli, one of the favourite pasta varieties of Italian cuisine, manages to attract attention with its structure similar to the ravioli of Turkish cuisine. Ravioli is a type of stuffed pasta, often described as 'Italian dumplings.' It consists of triangular pieces of dough with serrated edges, filled with various ingredients.
+                        The filling can include vegetables, cheese, meat, or fish. Ravioli is typically served with tomato-based or cream-based sauces. Ravioli filled with ricotta, a type of cheese unique to Italy, is served with tomato sauce.
+                        Ravioli is made with eggs, flour, olive oil, salt, ricotta cheese, black pepper, tomatoes, garlic, tomato paste, basil, oregano, and butter. Special flavors can be created by adding different vegetables in Cheese Ravioli.                   
+                     </p>
+                </div>
+            </div>
+            
+            <div class="food-item">
+                <img src="/images/risotto.jpg" class="food-img" alt="Risotto">
+                <div class="food-info">
+                    <h2 class="food-title">Risotto</h2>
+                    <p class="food-desc">
+                        Risotto, which is one of the favourite flavours of Northern Italy, consists of different varieties. This dish, which differs according to the region where it is made, is cooked using a special rice. Risotto can be made with a variety of ingredients such as vegetables, saffron, pumpkin, shrimp, seafood, and meat.
+                        Risotto is cooked slowly in meat broth and the most preferred ingredients are white wine, onion, saffron, butter, and parmesan cheese. This type of risotto is called 'Risotto Alla Milanese".
+                        Although it may resemble rice pilaf in Turkish cuisine, Risotto is enriched with special spices and ingredients, offering a unique flavor. It is often enjoyed with a glass of wine.                  
+                     </p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="/images/minestrone-çorbası.jpg" class="food-img" alt="Minestrone Soup">
+                <div class="food-info">
+                    <h2 class="food-title">Minestrone Soup</h2>
+                    <p class="food-desc">
+                        Minestrone Soup holds a special place in Italian cuisine and is a hearty winter dish dominated by vegetables. The vegetable soup includes zucchini, carrots, leeks, dried onions, celery, garlic, tomatoes, grated parmesan cheese, pasta beads, beans, meat or chicken broth, cauliflower, broccoli, basil, olive oil and salt.
+                        Minestrone Soup, which has become a symbol of Italy for many years, is extremely tasty and satisfying, as well as has high nutritional value and light texture.                    
+                    </p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="/images/gelato_1_1.jpg" class="food-img" alt="Gelato">
+                <div class="food-info">
+                    <h2 class="food-title">Gelato and Dolce</h2>
+                    <p class="food-desc">
+                        Italian ice cream contains less fat than American versions and is churned more slowly, resulting in a denser texture. Popular flavors include pistachio, hazelnut, and stracciatella. Gelato typically has 4-9% fat compared to ice cream's 14-25%, which allows the flavors to be more pronounced. It's stored and served at a slightly warmer temperature than ice cream, making it softer and more velvety.
+                        <br><br>
+                        Taking ice cream to the next level, gelato's soft, light folds are packed with layers of beautifully intense flavours. Pair flavours such as pistachio or mandorla (almond) with rich chocolate, or try fruity varieties like frutti de bosca (fruits of the forest) or pesca (peach) for a slightly more virtuous vitamin hit – the perfect antidote for a sun-filled day. If you're in southern Italy, you have to check out the regional favourite, liquirizia (liquorice).                    
+                    </p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="/images/meat_1_1.jpg" class="food-img" alt="Polenta and Cured Meat">
+                <div class="food-info">
+                    <h2 class="food-title">Polenta and Cured Meat</h2>
+                    <p class="food-desc">
+                        Polenta is one such dish. Polenta consists of cheery yellow cornmeal, cooked with generous amounts of butter and parmesan – it's a hearty meal capable of warming the chilliest of toes. Look out for this Italian answer to mashed potato in the snowy resort of Val di Fassa.
+                        You're probably familiar with the deeply tantalising flavours of salami - Italy's most famous cured meat - but it's well worth tucking into some of the lesser-known varieties. Nduja, for example, is a spreadable spicy pork sausage produced in Calabria, the arch of Italy's boot. Served as part of your pre-dinner antipasti alongside plump olives and regional cheese, it's the perfect way to start an evening.                
+                    </p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="/images/Italian Coffee Culture.jpg" class="food-img" alt="Italian Espresso">
+                <div class="food-info">
+                    <h2 class="food-title">Espresso</h2>
+                    <p class="food-desc">
+                        Italian coffee culture revolves around espresso, which is the foundation of many popular drinks like cappuccinos and macchiatos. Italians generally enjoy espresso at the bar, often standing, and typically in the morning. They also have a variety of coffee drinks, including cappuccinos, latte macchiatos, and affogatos. In Italy, coffee is not just a beverage but a cultural ritual that brings people together throughout the day.                  
+                     </p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
