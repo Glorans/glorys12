@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Culture</title>
+    <title>Italian Culture</title>
     <style>
         body {
             background-image: url('/images/BGculture.png');
@@ -10,6 +10,189 @@
             background-attachment: fixed;
             font-family: Arial;
         }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 40px;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .culture-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .culture-item {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: auto; 
+        }
+
+        .culture-img {
+            width: 300px;
+            min-height: 100%;
+            object-fit: cover;
+            object-position: center;
+            flex-shrink: 0;
+            border-radius: 10px 0 0 10px;
+            align-self: stretch;
+        }
+        
+        .culture-info {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        
+        .culture-title {
+            font-size: 24px;
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .culture-desc {
+            color: #555;
+            line-height: 1;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    
     </style>
- </head>
-    </html>
+</head>
+<body>
+    <div class="header">
+        <h1>Italian Culture</h1>
+    </div>
+    
+    <div class="container">
+        <div class="culture-list">
+            <div class="culture-item">
+                <img src="/images/family.png" class="culture-img" alt="Italian Family">
+                <div class="culture-info">
+                    <h2 class="culture-title">Family & Tradition</h2>
+                    <p class="culture-desc">
+                        In Italy, <strong>family is everything</strong>.
+                        Most Italians grow up with strong bonds not only with their immediate family but also with extended relatives like grandparents, aunts, uncles, and cousins.
+                        Sunday lunches, weddings, and festivals often become big family gatherings. Respect for elders is deeply ingrained, and traditions are passed down from generation to generation. 
+                        Family is seen as a source of <strong>support, identity, and pride</strong>.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="culture-item">
+                <img src="/images/BGfood.png" class="culture-img" alt="Italian Cuisine">
+                <div class="culture-info">
+                    <h2 class="culture-title">Food & Cuisine</h2>
+                    <p class="culture-desc">
+                        Italian food is more than delicious – it's a <strong>cultural experience</strong>. 
+                        Each meal is savored and shared, and Italians usually take time to eat and enjoy good conversation. 
+                        The cuisine is based on <strong>fresh, simple ingredients</strong>: tomatoes, olive oil, garlic, basil, cheese, and pasta.
+                        Different regions have their own specialties – like <strong>Neapolitan pizza</strong> in Naples, <strong>risotto</strong> in Milan, and <strong>pesto</strong> in Genoa. 
+                        Italians also follow a specific meal structure: <em>antipasto</em> (starter), <em>primo</em> (first course), <em>secondo</em> (main dish), <em>contorno</em> (side dish), and <em>dolce</em> (dessert).
+                    </p>
+                </div>
+            </div>
+            
+            <div class="culture-item">
+                <img src="/images/artsANDarch.jpg" class="culture-img" alt="Italian Art">
+                <div class="culture-info">
+                    <h2 class="culture-title">Art & Architecture</h2>
+                    <p class="culture-desc">
+                        Italy has made an enormous contribution to the <strong>world of art and architecture</strong>. 
+                        The country is filled with treasures from ancient Roman ruins to Renaissance masterpieces. 
+                        Italy is home to <strong>more UNESCO World Heritage sites</strong> than any other country. 
+                        Famous landmarks like the <strong>Colosseum</strong>, <strong>Leaning Tower of Pisa</strong>, and <strong>Florence Cathedral</strong> are just a few examples.
+                        Renaissance art flourished in Italy, producing artists like <strong>Leonardo da Vinci</strong>, <strong>Michelangelo</strong>, <strong>Caravaggio</strong>, and <strong>Raphael</strong> who changed the course of art history.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="culture-item">
+                <img src="/images/fashion.png" alt="Italian Fashion" class="culture-img">
+                <div class="culture-info">
+                    <h2 class="culture-title">Fashion & Style</h2>
+                    <p class="culture-desc">
+                        Italy is one of the world's fashion capitals. Cities like <strong>Milan</strong> and <strong>Florence</strong> host some of the biggest fashion weeks, 
+                        and luxury brands such as <strong>Gucci, Prada, Versace, Armani</strong>, and <strong>Dolce & Gabbana</strong> are globally renowned. 
+                        Italians are known for dressing well and having a strong sense of personal style. Fashion is seen as a way of <strong>expressing identity, creativity, and elegance</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="culture-item">
+                <img src="images/language.png" class="culture-img" alt="Italian Language">
+                <div class="culture-info">
+                    <h2 class="culture-title">Language & Communication</h2>
+                    <p class="culture-desc">
+                        The <strong>Italian language</strong> is melodic, expressive, and rich in history. 
+                        It evolved from Latin and has many regional dialects that are still spoken today. 
+                        Italians are famous for their <strong>emotional expressiveness</strong>, often using hand gestures and tone of voice to enhance what they're saying. 
+                        Communication in Italy is <strong>warm, passionate, and direct</strong>, which reflects the lively spirit of the people.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="culture-item">
+                <img src="/images/festivals.png" class="culture-img" alt="Italian Music">
+                <div class="culture-info">
+                    <h2 class="culture-title">Music, Dance & Festivals</h2>
+                    <p class="culture-desc">
+                        Italy is the <strong>birthplace of opera</strong> and classical music. 
+                        Great composers like <strong>Verdi</strong>, <strong>Puccini</strong>, and <strong>Vivaldi</strong> came from Italy. 
+                        Traditional Italian music includes folk songs, mandolin tunes, and regional dances such as the <strong>Tarantella</strong>. 
+                        Festivals are also a huge part of Italian life – from the romantic <strong>Venice Carnival</strong> to colorful <strong>religious processions</strong> and historic <strong>Palio horse races</strong> in Siena. 
+                        Each region has unique festivals that reflect its local history and customs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="culture-item">
+                <img src="images/religion.png" class="culture-img" alt="Italian Religion">
+                <div class="culture-info">
+                    <h2 class="culture-title">Religion & Spirituality</h2>
+                    <p class="culture-desc">
+                        Italy is a predominantly <strong>Catholic country</strong>, and religion still plays an important role in everyday life. 
+                        The <strong>Vatican City</strong>, the spiritual and administrative center of the Catholic Church, is located in Rome. 
+                        Many Italians attend church regularly, and religious holidays like <strong>Christmas, Easter, and All Saints' Day</strong> are widely celebrated with food, mass, and family gatherings.
+                    </p>
+                </div>
+            </div>
+
+                                               
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Italian Art</title>
+    <style>
+        body {
+            background-image: url('/images/arts.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed;
+            font-family: Arial;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 40px;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .art-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .art-item {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: auto; 
+        }
+
+        .art-img {
+            width: 300px;
+            min-height: 100%;
+            object-fit: cover;
+            object-position: center;
+            flex-shrink: 0;
+            border-radius: 10px 0 0 10px;
+            align-self: stretch;
+        }
+        
+        .art-info {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        
+        .art-title {
+            font-size: 24px;
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .art-desc {
+            color: #555;
+            line-height: 1;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Masterpieces of Italian Art</h1>
+    </div>
+    
+    <div class="container">
+        <div class="art-list">
+            <div class="art-item">
+                <img src="/images/The Last Supper.jpg" class="art-img" alt="The Last Supper">
+                <div class="art-info">
+                    <h2 class="art-title">The Last Supper – Leonardo da Vinci</h2>
+                    <p class="art-desc">
+                        <strong>Origin: Milan, Italy</strong><br><br>
+                        This masterpiece, painted on the wall of a convent in Milan, captures the dramatic moment when Jesus announces that one of his disciples will betray him. It's famous for its emotional depth and perfect use of perspective.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="art-item">
+                <img src="/images/The Birth of Venus.jpg" class="art-img" alt="The Birth of Venus">
+                <div class="art-info">
+                    <h2 class="art-title">The Birth of Venus – Sandro Botticelli</h2>
+                    <p class="art-desc">
+                        <strong>Origin: Florence, Italy</strong><br><br>
+                        Painted in Florence, this elegant work shows Venus, the goddess of love, emerging from the sea on a shell. It symbolizes divine beauty and was a major symbol of the Italian Renaissance.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="art-item">
+                <img src="/images/david (2).jpg" class="art-img" alt="David">
+                <div class="art-info">
+                    <h2 class="art-title">David – Michelangelo Buonarroti</h2>
+                    <p class="art-desc">
+                        <strong>Origin: Florence, Italy</strong><br><br>
+                        Carved from a single block of marble, Michelangelo's David stands as a powerful symbol of strength and human perfection. Created in Florence, it's one of Italy's most admired sculptures.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="art-item">
+                <img src="/images/The Creation of Adam .jpg" alt="The Creation of Adam" class="art-img">
+                <div class="art-info">
+                    <h2 class="art-title">The Creation of Adam – Michelangelo Buonarroti</h2>
+                    <p class="art-desc">
+                        <strong>Origin: Vatican City, Italy</strong><br><br>
+                        Part of the Sistine Chapel ceiling in Rome, this fresco shows God giving life to Adam with just a touch. It's one of the most iconic images ever painted, and a peak of Italian Renaissance art.
+                    </p>
+                </div>
+            </div>
+
+            <div class="art-item">
+                <img src="/images/The School of Athens .jpg" class="art-img" alt="The School of Athens">
+                <div class="art-info">
+                    <h2 class="art-title">The School of Athens – Raphael</h2>
+                    <p class="art-desc">
+                        <strong>Origin: Vatican City, Italy</strong><br><br>
+                        Painted in the Vatican, this fresco features ancient philosophers like Plato and Aristotle. It represents the harmony of art, philosophy, and science – core values of Italy's Renaissance.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
